@@ -93,11 +93,7 @@ const Hero = () => {
                     <div className="image-frame">
                         <div className="image-background"></div>
                         <div className="image-placeholder" id="profile-image">
-                            <svg className="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                                <circle cx="12" cy="8" r="4" />
-                                <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
-                            </svg>
-                            <span className="placeholder-text">Profile Photo</span>
+                            <img src="/profile.jpg" alt="Allam Mahideep Profile" />
                         </div>
                         <div className="image-border"></div>
                         <div className="image-glow"></div>
